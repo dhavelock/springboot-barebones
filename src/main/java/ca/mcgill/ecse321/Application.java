@@ -14,7 +14,7 @@ public class Application {
         session.beginTransaction();
 
         /* Create an example student */
-        Hello hello = new Hello(1, "Hello!");
+        Hello hello = new Hello(2, "Hello again!");
 
         /* Write the student to the DB by committing the transaction */
         session.saveOrUpdate(hello);
@@ -23,7 +23,7 @@ public class Application {
 
         session.close();
 
-        HibernateUtil.closeSession();
+        //HibernateUtil.closeSession();
 
         System.out.println("close");
 

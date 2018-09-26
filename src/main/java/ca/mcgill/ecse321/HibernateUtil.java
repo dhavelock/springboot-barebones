@@ -21,6 +21,7 @@ public class HibernateUtil {
         return sessionFactory.openSession();
     }
 
+    /* I wrote this method, the above was from McIntosh example */
     public static void closeSession() {
         sessionFactory.close();
     }
