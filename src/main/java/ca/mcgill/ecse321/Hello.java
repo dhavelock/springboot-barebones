@@ -1,7 +1,15 @@
 package ca.mcgill.ecse321;
 
-public class Hello {
+import javax.persistence.Entity;
+//import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
+@Entity
+@Table
+public class Hello {
+    
+    @Id
     private final long id;
     private final String content;
 
