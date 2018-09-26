@@ -8,7 +8,7 @@ import javax.persistence.Table;
 @Entity
 @Table
 public class Hello {
-    
+    //add a comment
     @Id
     private final long id;
     private final String content;
