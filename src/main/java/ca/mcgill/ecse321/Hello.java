@@ -17,7 +17,7 @@ public class Hello {
         this.id = id;
         this.content = content;
     }
-
+    
     public long getId() {
         return id;
     }
